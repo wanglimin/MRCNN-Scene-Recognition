@@ -1,4 +1,4 @@
-# Multi－Resolution CNNs for Large-Scale Scene Recognition
+# Multi-Resolution CNNs for Large-Scale Scene Recognition
 This repo releases the code and models of team "SIAT_MMLAB" for several large-scale scene recogntion challenges.
 
 |        Challenge    | Rank | Performance |
