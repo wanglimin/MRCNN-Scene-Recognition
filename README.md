@@ -13,14 +13,10 @@ Basically, we have made three efforts to exploit CNNs for large-scale scene reco
 - We propose a knowledge disambiguation strategy to deal with the label ambiguity issue of scene recognition.
 - We discover several good practices to train CNNs on existing datasets, like class balancing, hard sample mining.
 
-The following report describes the technical detais of our method on these challenges:
+The following report describes the technical detais:
 
     Knowledge Guided Disambiguation for Large-Scale Scene Classification with Multi-Resolution CNNs
     Limin Wang, Sheng Guo, Weilin Huang, Yuanjun Xiong, and Yu Qiao, in arXive 2016.
 
+Models and code coming soon!
 
-### Places2 challenge 2015
-In this challenge, 
-
-### Places2 challenge 2016
-In this challenge
