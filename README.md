@@ -2,8 +2,8 @@
 Here we provide the code and models for the following report:
 
     Knowledge Guided Disambiguation for Large-Scale Scene Classification with Multi-Resolution CNNs
-    Limin Wang, Sheng Guo, Weilin Huang, Yuanjun Xiong, and Yu Qiao, 
-    in arXiv:1610.01119, 2016
+    Limin Wang, Sheng Guo, Weilin Huang, Yuanjun Xiong, and Yu Qiao 
+    in arXiv:1610.01119, 2016
 
 ### Updates
 - January 3rd, 2017
