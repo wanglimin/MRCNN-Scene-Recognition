@@ -30,7 +30,7 @@ We first release the learned models on the Places365 dataset.
 |        Model    |  Top5 Error Rate |
 |:-------------------:|:--------------:|
 | (A0) Normal BN-Inception |    0.143   |
-| (A1) Normal BN-Inception + object networks |    0.143   |
+| (A1) Normal BN-Inception + object networks |    0.141   |
 | (A2) Normal BN-Inception + scene networks |    0.134   |
 
 - Models learned at resolution of 384 * 384
