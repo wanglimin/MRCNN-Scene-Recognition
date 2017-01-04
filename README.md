@@ -31,8 +31,6 @@ We first release the learned models on the Places365 dataset.
 | (A0) Normal BN-Inception |    0.143   |
 | (A1) Normal BN-Inception + object networks |    0.143   |
 | (A2) Normal BN-Inception + scene networks |    0.134   |
-| A0+A1 | 0.134 |
-| A0+A2 | 0.129 |
 
 - Models learned at resolution of 384 * 384
 
@@ -41,15 +39,11 @@ We first release the learned models on the Places365 dataset.
 | (B0) Deeper BN-Inception |    0.140   |
 | (B1) Deeper BN-Inception + object networks |    0.136   |
 | (B2) Deeper BN-Inception + scene networks |    0.130   |
-| B0+B1 | 0.130 |
-| B0+B2 | 0.128 |
 
-- Models learned at two resolutions
+### Testing Code
 
-|        Model    |  Top5 Error Rate |
-|:-------------------:|:--------------:|
-| A0+B0 | 0.132 |
-| A1+B1 | 0.130 |
-| A2+B2 | 0.124 |
+### Training Code
+The training code is based on our modified Caffe toolbox. It is a efficient parallel caffe with MPI implementation. Meanwhile, we implement a new kl-divergence loss layer for our knowledge disambiguation methods;
 
+https://github.com/yjxiong/caffe/tree/kd
 
