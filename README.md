@@ -1,9 +1,10 @@
 # Multi-Resolution CNNs for Large-Scale Scene Recognition
-Here we provide the code and models for the following report:
+Here we provide the code and models for the following paper ([Arxiv Preprint](https://arxiv.org/abs/1610.01119)):
 
     Knowledge Guided Disambiguation for Large-Scale Scene Classification with Multi-Resolution CNNs
     Limin Wang, Sheng Guo, Weilin Huang, Yuanjun Xiong, and Yu Qiao 
     in IEEE Transactions on Image Processing, 2017
+
 
 ### Updates
 - February 21st, 2017
@@ -58,6 +59,12 @@ We also release a demo code to use our Places365 model as generic feature extrac
 
 ### Training Code
 We release the models at the directory of `models/` and the training scripts at the directory of `scripts/`.
+
+Try `bash scripts/256_inception2_train.sh` to train standard CNNs.
+
+Try `bash scripts/256_kd_object_inception2_train.sh` to train knowledge disambiguation networks (by object network).
+
+Try `bash scripts/256_kd_scene_inception2_train.sh` to train knowledge disambiguation netowrks (by scene network).
 
 The training code is based on our modified Caffe toolbox. It is a efficient parallel caffe with MPI implementation. Meanwhile, we implement a new kl-divergence loss layer for our knowledge disambiguation methods;
 
