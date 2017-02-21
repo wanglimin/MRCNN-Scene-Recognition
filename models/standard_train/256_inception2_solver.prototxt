@@ -1,0 +1,29 @@
+net: "models/standard_train/256_inception2_train_val.prototxt"
+
+# testing parameter
+test_iter: 1105
+test_interval: 5000
+test_initialization:false
+
+# output
+display: 20
+average_loss: 20
+snapshot: 5000
+snapshot_prefix: "256_inception2_places2_standard"
+debug_info: false
+
+# learning rate
+base_lr: 0.1
+lr_policy: "step"
+gamma: 0.1
+stepsize: 150000
+max_iter:  600000
+
+# parameter of RMSPROP
+momentum: 0.9
+weight_decay: 0.0005
+ 
+# GPU setting
+solver_mode: GPU
+device_id: [0,1,2,3,4,5,6,7]
+richness: 200

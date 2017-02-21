@@ -1,0 +1,30 @@
+net: "models/kd_train/384_scene_kd_inception2_train_val.prototxt"
+
+# testing parameter
+test_iter: 912
+test_interval: 5000
+test_initialization: false
+
+# output
+display: 20
+average_loss: 20
+snapshot: 10000
+snapshot_prefix: "places3_standard_384_kd_scene_inception_bn_w_0.25"
+
+# learning rate
+base_lr: 0.1
+lr_policy: "step"
+gamma: 0.1
+stepsize: 150000
+max_iter: 600000
+iter_size: 1
+
+# parameter of SGD
+momentum: 0.9
+weight_decay: 0.0005
+
+# GPU setting
+solver_mode: GPU
+device_id: [0,1,2,3,4,5,6,7]
+richness: 10
+
