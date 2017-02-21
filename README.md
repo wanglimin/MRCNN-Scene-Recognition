@@ -44,12 +44,17 @@ We first release the learned models on the Places365 dataset.
 | (B2) Deeper BN-Inception + scene networks |    0.130   |
 
 - Download initialization and reference models
-We release the scripts at the directory of `scripts/`. Try `bash scripts/get_init_models.sh` to downdload knowldege models and `bash scripts/get_reference_models.sh` to download reference models.
+
+We release the scripts at the directory of `scripts/`. 
+
+Try `bash scripts/get_init_models.sh` to downdload knowldege models.
+
+Try `bash scripts/get_reference_models.sh` to download reference models.
 
 ### Testing Code
 We release the testing code on the Places365 validation dataset at the directory of `matlab/`.
 
-We also release a demo code to use our Places365 model as generic feature extraction and perform scene recognition on the MIT Indoor67 dataset at the directory of `matlab/'.
+We also release a demo code to use our Places365 model as generic feature extraction and perform scene recognition on the MIT Indoor67 dataset at the directory of `matlab/`.
 
 ### Training Code
 We release the models at the directory of `models/` and the training scripts at the directory of `scripts/`.
