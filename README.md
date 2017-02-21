@@ -3,11 +3,13 @@ Here we provide the code and models for the following report:
 
     Knowledge Guided Disambiguation for Large-Scale Scene Classification with Multi-Resolution CNNs
     Limin Wang, Sheng Guo, Weilin Huang, Yuanjun Xiong, and Yu Qiao 
-    in arXiv:1610.01119, 2016
+    in IEEE Transactions on Image Processing, 2017
 
 ### Updates
+- February 21st, 2017
+  * Release the code and models
 - January 3rd, 2017
-  * Release the models on the Places365 dataset and test code.
+  * Initialize the repo
 
 ### Overview
 We have made two efforts to exploit CNNs for large-scale scene recognition:
@@ -41,12 +43,17 @@ We first release the learned models on the Places365 dataset.
 | (B1) Deeper BN-Inception + object networks |    0.136   |
 | (B2) Deeper BN-Inception + scene networks |    0.130   |
 
-### Testing Code
-We release the testing code on the Places365 validation dataset.
+- Download initialization and reference models
+We release the scripts at the directory of `scripts/`. Try `bash scripts/get_init_models.sh` to downdload knowldege models and `bash scripts/get_reference_models.sh` to download reference models.
 
-We also release a demo code to use our Places365 model as generic feature extraction and perform scene recognition on the MIT Indoor67 dataset.
+### Testing Code
+We release the testing code on the Places365 validation dataset at the directory of `matlab/`.
+
+We also release a demo code to use our Places365 model as generic feature extraction and perform scene recognition on the MIT Indoor67 dataset at the directory of `matlab/'.
 
 ### Training Code
+We release the models at the directory of `models/` and the training scripts at the directory of `scripts/`.
+
 The training code is based on our modified Caffe toolbox. It is a efficient parallel caffe with MPI implementation. Meanwhile, we implement a new kl-divergence loss layer for our knowledge disambiguation methods;
 
 https://github.com/yjxiong/caffe/tree/kd
