@@ -70,3 +70,9 @@ The training code is based on our modified Caffe toolbox. It is a efficient para
 
 https://github.com/yjxiong/caffe/tree/kd
 
+### Questions
+Contact 
+- [Limin Wang](http://wanglimin.github.io/)
+- [Sheng Guo] (mailto:sheng.guo@siat.ac.cn)
+- [Weilin Huang](http://www.wlhuang.com/)
+
