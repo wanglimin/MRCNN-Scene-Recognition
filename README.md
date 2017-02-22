@@ -73,6 +73,6 @@ https://github.com/yjxiong/caffe/tree/kd
 ### Questions
 Contact 
 - [Limin Wang](http://wanglimin.github.io/)
-- [Sheng Guo] (mailto:sheng.guo@siat.ac.cn)
-- [Weilin Huang](http://www.wlhuang.com/)
+- [Sheng Guo] (http://guoshengcv.github.io/)
+- [Weilin Huang](http://www.whuang.org/)
 
