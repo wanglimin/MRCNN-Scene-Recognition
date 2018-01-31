@@ -47,11 +47,11 @@ for i = ind
     
     
     crop_num = 3; crop_dim = scale*1;
-    crop_data_1 = multi_crop(im_data, crop_num, crop_dim, crop_dim);
+    crop_data_1 = multi_crop(im_data, crop_num, crop_dim, 224);
     crop_num = 3; crop_dim = round(scale*0.9375);
-    crop_data_2 = multi_crop(im_data, crop_num, crop_dim, crop_dim);
+    crop_data_2 = multi_crop(im_data, crop_num, crop_dim, 224);
     crop_num = 3; crop_dim = round(scale*0.875);
-    crop_data_3 = multi_crop(im_data, crop_num, crop_dim, crop_dim);
+    crop_data_3 = multi_crop(im_data, crop_num, crop_dim, 224);
     crop_data = cat(4, crop_data_1, crop_data_2, crop_data_3);
     
     net.blobs('data').set_data(crop_data);
