@@ -10,11 +10,11 @@ for i = 1:crop_num
     for j = 1:crop_num
         start1 = round((i-1)*stride1+1);
         if start1 > scale1-crop_dim+1
-            start1 = scale1_crop_dim+1;
+            start1 = scale1-crop_dim+1;
         end
         start2 = round((j-1)*stride2+1);
         if start2 > scale2-crop_dim+1
-            start2 = scale2_crop_dim+1;
+            start2 = scale2-crop_dim+1;
         end
         if crop_dim == dim
             crop_data(:,:,:,cnt) = img_data(start1:start1+crop_dim-1, start2:start2+crop_dim-1,:);
